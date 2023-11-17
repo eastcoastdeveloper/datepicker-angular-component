@@ -59,7 +59,8 @@
     position: relative;
     justify-content: center;
 
-    .month, .year {
+    .month,
+    .year {
       display: grid;
       grid-template-columns: auto 10px;
       grid-column-gap: 5px;
