@@ -24,11 +24,18 @@ header {
   font-style: italic;
 }
 .caret {
-  font-size: 30px;
-  line-height: 22px;
-  display: inline-block;
-  font-weight: lighter;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 7px;
+  height: 7px;
+  transform: rotate(-135deg) translate(-2px, -5px);
+  transition: transform .25s;
 }
+
+.rotate {
+  transform: translateY(3px) rotate(-45deg) !important;
+}
+
 header a {
   text-decoration: none;
   position: absolute;

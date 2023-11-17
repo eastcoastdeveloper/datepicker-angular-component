@@ -51,12 +51,18 @@
     font: normal 15px sans-serif;
     display: grid;
     background-color: #313b3f;
-    color: white;
+    color: #fff;
     padding: 5px 0 6px 0;
-    grid-template-columns: repeat(2, 30px);
-    grid-column-gap: 5px;
+    grid-template-columns: repeat(2, 45px);
+    grid-column-gap: 20px;
     position: relative;
     justify-content: center;
+
+    .month, .year {
+      display: grid;
+      grid-template-columns: auto 10px;
+      grid-column-gap: 5px;
+    }
 
     .close-calendar {
       background-color: white;
