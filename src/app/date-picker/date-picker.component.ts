@@ -46,6 +46,7 @@ export class DatepickerComponent implements OnInit {
     this.daySpan = [];
     let dayIndex = 1,
       emptyCells = 0;
+      // 7 * 6 = 42 (MAX NUMBER OF CELLS)
     for (let i = 0; i < 42; i++) {
       if (firstDayOfMonth > i) emptyCells++;
       this.daySpan.push({
