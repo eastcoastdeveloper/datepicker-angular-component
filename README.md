@@ -1,3 +1,3 @@
-# datepicker-angular-component
+# Angular Date Picker Component
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/datepicker-angular-component)
+ng serve from package.json
